@@ -5,7 +5,7 @@ fn main() {
     let ministries = vec!["Internal Affairs", "Justice", "Defense", "Power & Steel", "Petroleum"];
     let zones = vec!["South West", "North East", "South South", "South West", "South East"];
 
-    let mut file = std::fs::File::create("project_3.csv").expect("create failed");
+    let mut file = std::fs::File::create("project_3.txt").expect("create failed");
     file.write_all(b"S/N,Name of Commissioner,Ministry,Geopolitical Zone\n").expect("write failed");
 
     for i in 0..names.len() {

@@ -1,0 +1,5 @@
+C:\Users\Ebubechukwu\Documents\E.Ike-ugwu.COS101\week-10\practice_4\target\debug\deps\practice_4.d: src\main.rs
+
+C:\Users\Ebubechukwu\Documents\E.Ike-ugwu.COS101\week-10\practice_4\target\debug\deps\practice_4.exe: src\main.rs
+
+src\main.rs:

@@ -17,7 +17,7 @@ fn main() {
     ];
 
     let mut file = std::fs::File::create("project_2.csv").expect("create failed");
-    file.write_all(b"Student Name,Matric Number,Department,Level\n").expect("write failed");
+    writeln!(file,"Student Name,Matric Number,Department,Level\n").expect("write failed");
 
     for s in students {
         // print to console
